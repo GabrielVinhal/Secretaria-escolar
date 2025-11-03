@@ -2,6 +2,9 @@
 
 Este é um projeto full-stack de um sistema de gestão escolar, construído para modernizar e centralizar as operações de uma instituição de ensino. O sistema possui um backend robusto feito em Django (Python) que serve uma API REST, e um frontend moderno em React (JavaScript) focado na experiência do usuário.
 
+![WhatsApp Image 2025-11-03 at 11 13 25](https://github.com/user-attachments/assets/25bd3cb2-1537-47ff-98c8-915938cc6248)
+
+
 ## 🚀 Principais Funcionalidades
 
 O sistema é dividido em módulos que cobrem as principais necessidades de uma secretaria acadêmica:
@@ -14,11 +17,16 @@ O sistema é dividido em módulos que cobrem as principais necessidades de uma s
 * **Calendário Acadêmico:** Calendário interativo (usando FullCalendar) para visualização de provas, trabalhos e eventos escolares. Administradores podem criar, editar e excluir eventos.
 * **Eventos Extracurriculares:** Alunos podem visualizar e se inscrever em eventos com controle de vagas.
 
+![WhatsApp Image 2025-11-03 at 11 13 25 (1)](https://github.com/user-attachments/assets/ab57037a-5551-4035-9f86-7206e3951378)
+
+
 ### Módulos de Gestão e Administração
 * **Autenticação por Papel:** Sistema de login baseado em token que reconhece diferentes cargos (Aluno, Professor, Coordenador, Diretor, TI) e adapta a interface e as permissões.
 * **Módulo Financeiro:** Controle de Mensalidades (status de pagamento) e Transações financeiras (entradas e saídas).
 * **Módulo Disciplinar:** Registro de Advertências e Suspensões para os alunos.
 * **Gestão de Recursos:** Módulo para coordenadores gerenciarem Salas de Laboratório, Materiais Didáticos e Colaboradores.
+
+![WhatsApp Image 2025-11-03 at 11 13 25 (2)](https://github.com/user-attachments/assets/ae38a5a5-288b-4aa3-a705-bb504694f323)
 
 ---
 
@@ -104,6 +112,7 @@ Para executar este projeto, você precisará de dois terminais: um para o Backen
     npm run dev
     ```
     *O frontend estará rodando em `http://localhost:5173`.*
+
 
 ---
 
